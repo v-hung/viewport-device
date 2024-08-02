@@ -7,8 +7,8 @@ function App() {
   useEffect(() => {
     if (window) {
       setViewport({
-        w: window.innerWidth,
-        h: window.innerHeight
+        w: screen.width || window.innerWidth,
+        h: screen.height || window.innerHeight
       })
     }
   }, [])
