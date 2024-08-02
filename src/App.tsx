@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 function App() {
   const [screenViewport, setScreenViewport] = useState({ w: 0, h: 0 })
